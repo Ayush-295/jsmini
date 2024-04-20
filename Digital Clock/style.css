@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+body{
+    background-color: #19172E;
+    text-align: center;
+    color: white;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    padding-top: 10vh;
+    font-size: 5vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12vh;
+}
+.clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    width: 30vw;
+    height: 25vh;
+    background-color: #252339;
+    border-radius: 3rem;
+    
+}
+.block{
+    display: flex;
+    height: 18vh;
+    width: 6vw;
+    background-color: #302E42;
+    /* height: 70%;
+    width: 20%; */
+    border-radius: 1.7rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 10vh;
+}
